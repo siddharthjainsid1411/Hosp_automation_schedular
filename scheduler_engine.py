@@ -115,7 +115,7 @@ class EnterpriseScheduler:
 
             # Constraint: Must be in exactly one room
             if not valid_rooms:
-                print(f"⚠️ SKIPPING {pid}: No compatible room found for {p['type']}.")
+                print(f" SKIPPING {pid}: No compatible room found for {p['type']}.")
                 continue
             self.model.Add(sum(valid_rooms) == 1)
 
