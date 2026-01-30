@@ -311,7 +311,7 @@ elif emergency_mode == "Duration Adjustment":
 # MAIN DASHBOARD VISUALIZATION
 # ==========================================
  
-st.title("Pravega: AI-Driven OR Command Center")
+st.title("Intelligent Automated OT Schedular")
 st.markdown("### From **Raw Clinical Data** to **Optimized Schedule** in Seconds.")
  
 if st.session_state['schedule'] is not None and not st.session_state['schedule'].empty:
