@@ -6,7 +6,7 @@ from simulation_manager import HospitalSystem
 from hospital_config import SURGEONS, SURGEON_COLORS
  
 # --- CONFIG ---
-st.set_page_config(page_title="Pravega AI: OR Command Center", layout="wide", page_icon="⚕")
+st.set_page_config(page_title="Intelligent Automated OT Schedular", layout="wide", page_icon="⚕")
  
 # Initialize Session State
 if 'system' not in st.session_state:
